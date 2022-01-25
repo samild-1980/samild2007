@@ -20,6 +20,18 @@ public class Employee {
        System.out.println("Имя сотрудника: " + fullNane + ", Должность: " + post + ", email: " + email + ", номер телефона: " + phoneNumber + ", зарплата: " + salary + ", возраст: " + age);
    }
 
+    @Override
+    public String toString() {
+        return fullNane + " " + post + " " + email + " " + phoneNumber + " " + salary + " " + age;
+    }
+    public static void printArr(Employee x) {
+        System.out.println(x.fullNane + " " + x.post + " " + x.email + " " + x.phoneNumber + " " + x.salary + " " + x.age);
+    }
+    public int getAge() {
+        return age;
+    }
 
-
+    public void setAge(int age) {
+        this.age = age;
+    }
 }

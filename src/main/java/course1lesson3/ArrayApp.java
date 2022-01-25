@@ -5,15 +5,15 @@ import java.util.Arrays;
 public class ArrayApp {
     public static void main(String[] args) {
         int[] arr = {1, 0, 1, 0};
-       replaceNumb(arr);
-       int[] val = new int[100];
-       printArray1(val);
-       int[] num = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-       numbLessThan6MultiplyBy2(num);
-       int[][] arr2 = new int[6][6];
-       arrayWith1onTheDiagonal(arr2);
-       int[] arr3 = new int[4];
-       int initialValue = 2;
+        replaceNumb(arr);
+        int[] val = new int[100];
+        printArray1(val);
+        int[] num = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        numbLessThan6MultiplyBy2(num);
+        int[][] arr2 = new int[6][6];
+        arrayWith1onTheDiagonal(arr2);
+        int[] arr3 = new int[4];
+        int initialValue = 2;
         System.out.println(Arrays.toString(method1(arr3, initialValue)));
         int[] arr4 = {3, 5, 8, 2, 1};
         System.out.println(method2(arr4));

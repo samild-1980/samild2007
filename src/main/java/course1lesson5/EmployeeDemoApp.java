@@ -11,7 +11,6 @@ public class EmployeeDemoApp {
         employeesArray[3] = new Employee("Ivanov Ivan Ivanovich", "java-devoloper", "samild-1980@yandex.ru", "89630068143", 50000, 45);
         employeesArray[4] = new Employee("Викулов Максим Егорович", "банкир", "vikul2001@mail.ru", "89227893672", 70000, 42);
         printInfoPersonOver40EarOlds(employeesArray);
-
     }
 
     public static void printInfoPersonOver40EarOlds(Employee[] employeesArray) {
